@@ -20,6 +20,8 @@ app.configure(function(){
   app.use(express.static(__dirname + '/public'));
 });
 
+// 404 page rendering
+// When I tried to set 404 in routes folder, it was causing problems for directly accessing files, like robots.txt - PS
 app.use(function(req, res){
 	res.render('static/404', {title: "404 - Page Not Found", status: 404, url: req.url });
 });
