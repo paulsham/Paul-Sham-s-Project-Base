@@ -24,16 +24,6 @@ app.use(function(req, res){
 	res.render('static/404', {title: "404 - Page Not Found", status: 404, url: req.url });
 });
 
-/*
-app.configure('development', function(){
-  app.use(express.errorHandler({ dumpExceptions: true, showStack: true })); 
-});
-
-app.configure('production', function(){
-  app.use(express.errorHandler()); 
-});
-*/
-
 // Routes
 require('./routes')({ app: app });
 
