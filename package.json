@@ -1,0 +1,21 @@
+{
+  "author": "Paul Sham <contact@paulsham.com> (http://paulsham.com)",
+  "name": "paul-sham-s-project-base",
+  "description": "A base for my projects using HTML5 Boilerplate on node.js Express.",
+  "version": "0.0.0",
+  "homepage": "https://github.com/paulsham/Paul-Sham-s-Project-Base",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paulsham/Paul-Sham-s-Project-Base.git"
+  },
+  "engines": {
+    "node": "~0.6.10"
+  },
+  "dependencies": {
+    "express": ">= 2.0.0 < 3.0.0",
+    "jade": "*", 
+    "stylus": "*"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
