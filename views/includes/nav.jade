@@ -1,6 +1,11 @@
-navItems = [{text: 'link 1', href: '#'},{text: 'link 2', href: '#'},{text: 'link 3', href: '#'}];
+navItems = [{"text": "link 1", "href": "/"}, {"text": "link 2", href: "#"}, {"text": "link 3", href: "#"}];
 
 ul
-	each navItem in navItems
-		li
-			a(href="#{navItem.link}") #{navItem.text}
+	- each navItem in navItems
+		if route == navItem.href
+			li.current
+				a(href="#{navItem.href}") #{navItem.text}
+		else
+			li
+				a(href="#{navItem.href}") #{navItem.text}
+				
