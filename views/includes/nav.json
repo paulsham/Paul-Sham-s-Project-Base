@@ -1,0 +1,13 @@
+{
+	'mainNav':{
+		{'text': 'link 1', 'href': '/'},
+		{'text': 'link 2', href: '#'},
+		{'text': 'link 3', href: '#'}
+	},
+	'footerNav':{
+		{'text': 'footer link 1', 'href': '/'},
+		{'text': 'footer link 2', href: '#'},
+		{'text': 'footer link 3', href: '#'}	
+	}
+	
+};
